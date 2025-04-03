@@ -36,7 +36,7 @@ const Navbar = async () => {
                 await signIn("github");
               }}
             >
-              <button type="submit">Login</button>
+              <button type="submit" className="cursor-pointer">Login</button>
             </form>
           )}
         </div>
